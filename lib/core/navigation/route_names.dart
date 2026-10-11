@@ -1,0 +1,1 @@
+abstract final class RouteNames { static const splash='/'; static const login='/login'; static const signup='/signup'; static const home='/home'; static const details='/details'; static const cart='/cart'; static const history='/history'; static const favorites='/favorites'; }
