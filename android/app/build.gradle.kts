@@ -32,8 +32,8 @@ android {
         // flag during build.
         versionCode = flutter.versionCode
         versionName = flutter.versionName
-        manifestPlaceholders["facebookAppId"] = (project.findProperty("FACEBOOK_APP_ID") ?: "000000000000000").toString()
-        manifestPlaceholders["facebookClientToken"] = (project.findProperty("FACEBOOK_CLIENT_TOKEN") ?: "00000000000000000000000000000000").toString()
+        manifestPlaceholders["facebookAppId"] = (project.findProperty("FACEBOOK_APP_ID") ?: "4619659001690084").toString()
+        manifestPlaceholders["facebookClientToken"] = (project.findProperty("FACEBOOK_CLIENT_TOKEN") ?: "c863eb6f18df6524f8af894dc0ae7eb7").toString()
     }
 
     buildTypes {
